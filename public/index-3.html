@@ -12,22 +12,23 @@
   <header class="bg-blog-header-color py-6">
     <div class="flex mx-auto max-w-1128  justify-between items-center px-5">
       <a href="./index-1.html" class=""> <img src="./img/Kang Tutor.svg" alt="" class=""> </a>
-      <ul class="text-white flex gap-5 ">
+      <ul class="md:text-white md:flex md:gap-5 hidden ml-auto">
         <li class=""><a href="./index-2.html" class="">Beranda</a></li>
         <li class=""><a href="./index-3.html" class="">Tutorial</a></li>
         <li class=""><a href="#" class="">Pemrograman</a></li>
         <li class=""><a href="#" class="">Teknologi</a></li>
         <a href="#" class="flex items-center">
-          <img class="flex  animate-bounce w-4 h-4" src="./img/Vector.svg" alt="">
+          <img class="md:flex  md:animate-bounce md:w-4 md:h-4 hidden" src="./img/Vector.svg" alt="">
         </a>
       </ul>
+      <a href="#" class="text-white"><img class="flex md:hidden object-cover" src="./img/burger.svg" alt=""></a>
     </div>
   </header>
 
 
 
 
-  <section class="pt-12 pb-section-padding-b">
+  <section class="pt-12  md:pb-section-padding-b pb-0">
     <div class="max-w-1128 mx-auto flex gap-11 px-5">
 
       <div class="">
@@ -53,22 +54,10 @@
 
 
 
-        <div class="max-w-744 grid grid-cols-2 gap-5  ">
-          <div class="pb-blog rounded-2xl  box ">
+        <div class="max-w-744 sm:grid grid-cols-2 gap-5   grid-cols-1 gap-4">
+          <div class="pb-[40px] rounded-2xl box sm:block sm:mb-0 mb-4">
             <a href="#">
-              <div class="cursor-alias max-w-360 bg-section-container-color h-[191px] rounded-md mb-3 ">
-              </div>
-            </a>
-            <p class="text-section-text-color pl-3"><a href="#">In Label</a></p>
-            <h2 class="font-bold text-xl mb-0.5 pl-3">Ini Adalah Judul Artikel</h2>
-            <p class="text-html3 text-14p mb-4 pl-3"><b>By</b> Ridho Satriawan</p>
-            <p class="font-normal max-w-360 text-14p mb-3 pl-3">Apa itu HTML ? Buat kamu yang pernah
-              membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
-            <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
-          </div>
-          <div class="pb-[40px] rounded-2xl box">
-            <a href="#">
-              <div class="cursor-alias max-w-360 bg-section-container-color h-[191px] rounded-md mb-3">
+              <div class="cursor-alias max-w-360 bg-section-container-color h-[191px] rounded-md mb-3 md-block max-w-[100%]">
               </div>
             </a>
             <p class="text-section-text-color pl-3"><a href="#">In Label</a></p>
@@ -78,7 +67,23 @@
               membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
             <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
           </div>
-          <div class="box pb-40px rounded-2xl box">
+          
+
+          <div class="pb-[40px] rounded-2xl box">
+            <a href="#">
+              <div class="cursor-alias max-w-360 bg-section-container-color h-[191px] rounded-md mb-3 md:block max-w-[100%]">
+              </div>
+            </a>
+            <p class="text-section-text-color pl-3"><a href="#">In Label</a></p>
+            <h2 class="font-bold text-xl mb-0.5 pl-3">Ini Adalah Judul Artikel</h2>
+            <p class="text-html3 text-sm mb-4 pl-3"><b>By</b> Ridho Satriawan</p>
+            <p class="font-normal max-w-360 text-sm mb-3 pl-3">Apa itu HTML ? Buat kamu yang pernah
+              membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
+            <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
+          </div>
+
+
+          <div class="box pb-40px rounded-2xl box sm:block hidden">
             <a href="#">
               <div class="cursor-alias max-w-360 bg-section-container-color h-[191px] rounded-md mb-3">
               </div>
@@ -91,7 +96,8 @@
             <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
           </div>
 
-          <div class="box pb-[40px] rounded-2xl box">
+
+          <div class="box pb-[40px] rounded-2xl box sm:block hidden">
             <a href="#">
               <div class="cursor-alias max-w-90 bg-section-container-color h-[191px] rounded-md mb-3 ">
               </div>
@@ -103,75 +109,114 @@
               membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
             <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
           </div>
+
+
+          <div class="lg:box lg:pb-[40px] lg:hidden lg:rounded-2xl box block  sm:block hidden">
+            <a href="#">
+              <div class="cursor-alias max-w-90 bg-section-container-color h-[191px] rounded-md md:mb-3 mr-0 ">
+              </div>
+            </a>
+           <div class=" md:block hidden">
+            <p class="text-section-text-color pl-3"><a href="#">In Label</a></p>
+            <h2 class="font-bold text-xl mb-0.5 pl-3">Ini Adalah Judul Artikel</h2>
+            <p class="text-html3 text-sm mb-4 pl-3"><b>By</b> Ridho Satriawan</p>
+            <p class="font-normal max-w-90 text-sm mb-3 pl-3">Apa itu HTML ? Buat kamu yang pernah
+              membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
+            <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
+           </div>
+          </div>
+
+
+          <div class="lg:box lg:pb-[40px] lg:hidden lg:rounded-2xl box block sm:block hidden ">
+            <a href="#">
+              <div class="cursor-alias max-w-90 bg-section-container-color h-[191px] rounded-md md:mb-3 mr-0">
+              </div>
+            </a>
+       <div class=" md:block hidden">
+        <p class="text-section-text-color pl-3"><a href="#">In Label</a></p>
+        <h2 class="font-bold text-xl mb-0.5 pl-3">Ini Adalah Judul Artikel</h2>
+        <p class="text-html3 text-sm mb-4 pl-3"><b>By</b> Ridho Satriawan</p>
+        <p class="font-normal max-w-90 text-sm mb-3 pl-3">Apa itu HTML ? Buat kamu yang pernah
+          membuat sebuah website pastinya sudah tidak asing lagi dengan yang namanya HTML. S…</p>
+        <p class="text-html3 font-medium text-sm pl-3">22 Agustus 2022</p>
+       </div>
+          </div>
         </div>
 
+
       </div>
 
 
-      <a href="#">
-        <div class="">
-          <div class=" bg-blog-header-color px-103 py-12 rounded-md font-bold text-xl  text-white mb-6">
-            <h2 class="">Paling Populer</h2>
-          </div>
+      <div class="md:block hidden">
+        <a href="#">
+          <div class="">
+              <div
+                  class=" bg-blog-header-color px-103 py-section-p-l-item rounded-md font-bold text-20  text-white mb-6">
+                  <h2 class="">Paling Populer</h2>
+              </div>
       </a>
-
-
-      <div class="grid grid-cols-1 gap-5 mb-6 ">
-
-        <a href="#">
-          <div class=" box cursor-alias max-w-90 flex gap-3  py-3 px-2     ">
-            <div class="">
-              <img class="" src="./img/image article.svg" alt="">
+  
+  
+        <div class="grid grid-cols-1 gap-5 mb-6 ">
+  
+          <a href="#">
+            <div class=" box cursor-alias max-w-90 flex gap-3  py-3 px-2     ">
+              <div class="">
+                <img class="" src="./img/image article.svg" alt="">
+              </div>
+              <div class="rounded-sm">
+                <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
+                <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
+              </div>
             </div>
-            <div class="rounded-sm">
-              <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
-              <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
+          </a>
+  
+          <a href="#">
+            <div class="box cursor-alias max-w-90 flex gap-3  py-3 px-2 ">
+              <div class="">
+                <img class="" src="./img/image article.svg" alt="">
+              </div>
+              <div class="rounded-sm">
+                <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
+                <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
+              </div>
             </div>
-          </div>
-        </a>
-
-        <a href="#">
-          <div class="box cursor-alias max-w-90 flex gap-3  py-3 px-2 ">
-            <div class="">
-              <img class="" src="./img/image article.svg" alt="">
+          </a>
+  
+          <a href="#">
+            <div class="box cursor-alias max-w-360 flex gap-3  py-3 px-2   ">
+              <div class="">
+                <img class="" src="./img/image article.svg" alt="">
+              </div>
+              <div class="rounded-sm">
+                <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
+                <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
+              </div>
             </div>
-            <div class="rounded-sm">
-              <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
-              <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
-            </div>
-          </div>
-        </a>
-
-        <a href="#">
-          <div class="box cursor-alias max-w-360 flex gap-3  py-3 px-2   ">
-            <div class="">
-              <img class="" src="./img/image article.svg" alt="">
-            </div>
-            <div class="rounded-sm">
-              <p class="font-bold text-3 mb-2">Ini Adalah Judul Artikel</p>
-              <p class="font-medium text-html3 text-12">22 Agustus 2022</p>
-            </div>
-          </div>
-        </a>
-
-      </div>
-      <a href="#">
-        <div class="bg-blog-header-color px-[135px] py-12 font-bold text-20 text-white rounded-md mb-6 ">
-          <h2 class="">Kategori</h2>
+          </a>
+  
+          
+  
         </div>
+        <a href="#">
+          <div
+              class="bg-blog-header-color px-135 py-section-p-l-item font-bold text-20 text-white rounded-md mb-6 ">
+              <h2 class="">Kategori</h2>
+          </div>
       </a>
-
-
-      <div class="max-w-[360px] flex justify-between mb-1">
-        <p class="font-semibold text-html3  text-18">> Label 1 </p>
-        <p class="font-semibold text-html3 text-18">(1)</p>
+  
+  
+        <div class="max-w-[360px] flex justify-between mb-1">
+          <p class="font-semibold text-html3  text-18">> Label 1 </p>
+          <p class="font-semibold text-html3 text-18">(1)</p>
+        </div>
+        <div class="max-w-360 flex justify-between">
+          <p class="font-semibold text-html3  text-18">> Label </p>
+          <p class="font-semibold text-html3 text-18">(2)</p>
+        </div>
+  
+  
       </div>
-      <div class="max-w-360 flex justify-between">
-        <p class="font-semibold text-html3  text-18">> Label </p>
-        <p class="font-semibold text-html3 text-18">(2)</p>
-      </div>
-
-
 
 
 
