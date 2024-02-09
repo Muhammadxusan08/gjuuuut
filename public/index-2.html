@@ -14,22 +14,23 @@
     <header class="bg-blog-header-color py-6">
         <div class="flex mx-auto max-w-1128  justify-between items-center px-5">
             <a href="./index-1.html" class=""> <img src="./img/Kang Tutor.svg" alt="" class=""> </a>
-            <ul class="text-white flex gap-5 ">
+            <ul class="md:text-white md:flex md:gap-5 hidden ">
                 <li class=""><a href="./index-2.html" class="">Beranda</a></li>
                 <li class=""><a href="./index-3.html" class="">Tutorial</a></li>
                 <li class=""><a href="#" class="">Pemrograman</a></li>
                 <li class=""><a href="#" class="">Teknologi</a></li>
                 <a href="#" class="flex items-center">
-                    <img class="flex  animate-bounce w-4 h-4" src="./img/Vector.svg" alt="">
+                    <img class="md:flex  md:animate-bounce md:w-4 md:h-4 hidden" src="./img/Vector.svg" alt="">
                 </a>
             </ul>
+           <a href="#" class="text-white"><img class="flex md:hidden object-cover" src="./img/burger.svg" alt=""></a>
         </div>
     </header>
 
 
 
 
-    <section class="pt-12 pb-section-padding-b">
+    <section class="lg:pt-12 lg:pb-section-padding-b pb-9 pt-7">
         <div class="max-w-1128 mx-auto flex gap-6 px-5">
 
             <div class="max-[100%]">
@@ -38,7 +39,7 @@
 
 
                 <a class="" href="#">
-                    <div class="flex  w-[auto] py-3 bg-blog-header-color pl-5 pr-5 rounded-md mb-5 ">
+                    <div class="flex  w-[auto]  sm:py-3 bg-blog-header-color sm:pl-5 pr-5 rounded-md mb-5 pl-5  py-2">
                         <h2 class="text-white text-4 ">Home > html > Apa Itu HTML ?</h2>
                     </div>
                 </a>
@@ -96,13 +97,15 @@
                     </p>
                 </div>
 
-                <div class="imagee  mb-5 max-w-1044 h-309 mb-49 ">
+                <div class="imagee   lg:max-w-1044 lg:h-309 lg:mb-49 mb-5   ">
                     <img src="./img/image 1 (1).png" alt="">
                 </div>
 
-                <h2 class="font-bold text-24">Penutup</h2>
+              <div class="hidden lg:flex ">
+               
                 <br>
                 <p class="font-normal">
+                     <span class="font-bold text-24">Penutup</span> <br><br>
                     HTML pertama kali dicetus pada tahun 1980 oleh Tim Berners-Lee, pada saat itu dia sedang bekerja di
                     salah satu perusahaan yang bernama CERN (European Organization for Nuclear Research), dia
                     mengusulkan untuk membuat sebuah sistem yang bernama ENQUIRE yang berfungsi untuk mengelola dokumen
@@ -112,12 +115,14 @@
                     pendanaan untuk projeknya akan tetapi tidak berjalan dengan lancar. HTML mulai dipublikasikan pada
                     tahun 1991 dan memiliki 18 tag, hingga sekarang HTML mengalami perkembangan.
                 </p>
+              </div>
 
             </div>
 
 
 
 
+           <div class="md:flex hidden">
             <a href="#">
                 <div class="">
                     <div
@@ -184,6 +189,7 @@
                 <p class="font-semibold text-html-2-text-color  text-18">> Label </p>
                 <p class="font-semibold text-html-2-text-color text-18">(2)</p>
             </div>
+           </div>
 
 
 
