@@ -556,11 +556,20 @@ video {
 .w-4 {
   width: 1rem;
 }
+.w-8 {
+  width: 2rem;
+}
 .w-\[100\%\] {
   width: 100%;
 }
 .w-\[auto\] {
   width: auto;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[32px\] {
+  width: 32px;
 }
 .max-w-1128 {
   max-width: 1128px;
@@ -582,6 +591,9 @@ video {
 }
 .max-w-\[360px\] {
   max-width: 360px;
+}
+.max-w-8 {
+  max-width: 2rem;
 }
 @keyframes bounce {
 
@@ -618,9 +630,6 @@ video {
 }
 .gap-3 {
   gap: 0.75rem;
-}
-.gap-4 {
-  gap: 1rem;
 }
 .gap-5 {
   gap: 1.25rem;
@@ -826,16 +835,8 @@ html{
 
 @media (min-width: 640px) {
 
-  .sm\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .sm\:mt-0 {
-    margin-top: 0px;
   }
 
   .sm\:block {
@@ -905,6 +906,30 @@ html{
 
   .md\:w-4 {
     width: 1rem;
+  }
+
+  .md\:w-9 {
+    width: 2.25rem;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[36px\] {
+    width: 36px;
+  }
+
+  .md\:max-w-9 {
+    max-width: 2.25rem;
+  }
+
+  .md\:max-w-\[32\] {
+    max-width: 32;
+  }
+
+  .md\:max-w-\[32px\] {
+    max-width: 32px;
   }
 
   @keyframes bounce {
